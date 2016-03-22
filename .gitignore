@@ -5,5 +5,4 @@ node_modules
 pages/*/*.*
 !pages/*/*.bemjson.js
 !pages/*/*.bemdecl.js
-data.js
 npm-debug.log
