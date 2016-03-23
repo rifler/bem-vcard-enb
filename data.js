@@ -25,7 +25,7 @@ module.exports = {
                 workExt: '4075',
                 cell: '+7 (965) 279-48-50',
                 email: 'rifler@yandex-team.ru',
-                site: 'https://rifler.github.io',
+                site: 'http://kanatnikov.ru',
                 github: 'rifler',
                 twitter: 'dima_kanatnikov',
                 skype: 'rifler0989'
@@ -50,7 +50,7 @@ module.exports = {
                 workExt: '4075',
                 cell: '+7 (965) 279-48-50',
                 email: 'rifler@yandex-team.ru',
-                site: 'https://rifler.github.io',
+                site: 'http://kanatnikov.ru',
                 github: 'rifler',
                 twitter: 'dima_kanatnikov',
                 skype: 'rifler0989'
