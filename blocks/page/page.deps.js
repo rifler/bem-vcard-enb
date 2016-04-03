@@ -5,6 +5,9 @@
         },
         {
             block: 'metrika'
+        },
+        {
+            block: 'pageleave'
         }
     ]
 });

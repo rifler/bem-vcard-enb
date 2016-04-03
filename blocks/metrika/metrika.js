@@ -1,5 +1,5 @@
 var Metrika = {
-    init: function(id) {
+    init: function (id) {
         (function (d, w, c) {
             (w[c] = w[c] || []).push(function() {
                 try {
@@ -9,6 +9,7 @@ var Metrika = {
                         clickmap:true,
                         trackLinks:true,
                         accurateTrackBounce:true,
+                        triggerEvent:true,
                         trackHash:true
                     });
                 } catch(e) { }
