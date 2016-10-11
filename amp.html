@@ -1,0 +1,63 @@
+<!doctype html>
+<html amp lang="en">
+<head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <title>Hello, AMPs 1</title>
+    <link rel="canonical" href="/amp.html" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>
+        body {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<amp-analytics type="metrika">
+    <script type="application/json">
+        {
+            "vars": {
+                "counterId": "40163145"
+            },
+            "triggers": {
+                "notBounce": {
+                    "on": "timer",
+                    "timerSpec": {
+                        "immediate": false,
+                        "interval": 10,
+                        "maxTimerLength": 11
+                    },
+                    "request": "notBounce"
+                },
+                "redReach": {
+                    "on": "click",
+                    "selector": "#red",
+                    "request": "reachGoal",
+                    "vars": {
+                        "goalId": "RED_BTN_CLICK"
+                    }
+                },
+                "greenReach": {
+                    "on": "click",
+                    "selector": "#green",
+                    "request": "reachGoal",
+                    "vars": {
+                        "goalId": "GREEN_BTN_CLICK"
+                    }
+                }
+            }
+        }
+    </script>
+</amp-analytics>
+<p>id счётчика - 40163145</p>
+<p>неотказ через 10 секунд</p>
+<p>
+    <button id="red">Достижение цели RED_BTN_CLICK</button>
+    <button id="green">Достижение цели GREEN_BTN_CLICK</button>
+</p>
+<p>
+    <a href="/amp2.html">еще одна страница amp</a>
+</p>
+</body>
+</html>
